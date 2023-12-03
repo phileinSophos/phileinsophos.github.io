@@ -1,97 +1,73 @@
-- title: General Information
+- title: Personal Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
+    - name: Name
+      value: Omkar Patil
     - name: Date of Birth
-      value: 14th March 1879
+      value: 24th July 1995
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: English, Marathi, Hindi
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer 2
+      institution: Dell Technologies
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Delivered appliance troubleshooting through CLI feature, which enables a customer to troubleshoot appliance network configurations and disk state.
+        - Lead the efforts for microservice based logging and logs rotation policy implementation
+        - Contributed to the development of Multi Factor Authentication for appliance
+        
+    - title: Software Engineer
+      institution: Dell Technologies
       description:
-        - Description 1.
-        - Description 2.
+        - Lead the implementation of Hardware alerts montoring feature, enabling the customer to view information about any issues with the appliance hardware
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+        - Implemented complete RestAPI framework for backend data validation and verification written using Python Flask
+        - Python Plotly/Dash based dashboard implementation for visualizing automation run results
+        - Worked on implementing event based framework build using Python and Mongodb for processing automation results to be shown on dashboard
+        - Contributed to development of scripts for UI based automation using Cypress framework
+        - Working as software developer writing microservices using Java Spring Boot and docker for  containerization
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Intern
+      institution: Dell Technologies
       description:
+        - Worked on implementing a framework for log analysis
+        - Web based portal for processing log bundles and providing solutions to errors present in log files.
+        - Expert system based model, developed using python Django and mongodb
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Certifications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
+    - description: Dell Technologies Proven Professionals Associate - Information Storage and Management
+      year: March-2023
+      
+- title: Interests
+  type: list
+  contents:
+    - Virtualization
+    - Networking
+    - Data Strage
+    - Data Backups
+    - Data Security
+    - Linux Administration
+    
+- title: Education
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Post Graduation
+      institution: Walchand College of Engineering, Sangli MH
+      year: Sept-2020
+      description:
+        - Master's in Information Technology
+    - title: Graduation
+      institution: Internation Institute of Information Technology, Hinjawadi, Pune
+      year: Dec-2017
+      description:
+        - Becholers of Engineering in Information Technology
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Reading books
+    - Playing checss
