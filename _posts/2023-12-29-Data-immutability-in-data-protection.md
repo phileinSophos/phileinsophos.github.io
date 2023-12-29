@@ -5,7 +5,6 @@ date: 2023-12-29 06:00:00
 description: securing access to backed-up data
 tags: data-protection
 categories: Retention-Lock
-tikzjax: true
 ---
 
 # Data Immutability in Data Protection
