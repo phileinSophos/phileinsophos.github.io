@@ -13,32 +13,36 @@
   contents:
     - title: Senior Software Engineer
       institution: Dell Technologies
-      year: 2024 - Present
+      year: Apr-2024 - Present
       description:
-        - Contributed in the implementation of support for registering multiple LDAP servers on the appliance.
+        - Implemented multi-LDAP server registration on the appliance, enhancing user authentication and system scalability.
+        - Focused on Identity and Access Management (IAM) functionality.
 
     - title: Software Engineer 2
       institution: Dell Technologies
-      year: 2022 - 2024
+      year: Oct-2022 - Mar-2024
       description:
-        - Delivered appliance troubleshooting through CLI feature, which enables a customer to troubleshoot appliance network configurations and disk state.
-        - Lead the efforts for microservice based logging and logs rotation policy implementation.
-        - Contributed to the development of Multi Factor Authentication for appliance.
+        - Delivered appliance troubleshooting through CLI feature, a custom shell acting as facade between user and appliance os shell, written in python, which enables a customer to troubleshoot network configurations, disk state, etc.
+        - Led microservice-based logging and log rotation policy implementation.
+        - Contributed to the development of Multi-Factor Authentication (MFA) for the appliance.
+
         
     - title: Software Engineer
       institution: Dell Technologies
-      year: 2020 - 2022
+      year: Oct-2020 - Sep-2022
       description:
-        - Lead the implementation of Hardware alerts montoring feature, enabling the customer to view information about any issues with the appliance hardware.
-        - Implemented complete RestAPI framework for backend data validation and verification written using Python Flask.
-        - Python Plotly/Dash based dashboard implementation for visualizing automation run results.
-        - Worked on implementing event based framework build using Python and Mongodb for processing automation results to be shown on dashboard.
-        - Contributed to development of scripts for UI based automation using Cypress framework.
-        - Working as software developer writing microservices using Java Spring Boot and docker for  containerization.
+        - Led the implementation of hardware alert monitoring, providing real-time insights into appliance hardware issues.
+        - Developed appliance log collection functionality for efficient issue debugging.
+        - Wrote microservices using Java Spring Boot and containerized them with Docker.
+        - Built a comprehensive REST API framework using Python Flask for backend data validation and verification.
+        - Implemented a Python Plotly/Dash-based dashboard for visualizing automation run results.
+        - Created an event-based framework with Python and MongoDB for processing automation results displayed on a dashboard.
+        - Developed UI automation scripts using the Cypress framework.
+
 
     - title: Intern
       institution: Dell Technologies
-      year: Jul-2019 - April-2020
+      year: Jul-2019 - Apr-2020
       description:
         - Worked on implementing a framework for log analysis.
         - Web based portal for processing log bundles and providing solutions to errors present in log files.
@@ -48,7 +52,7 @@
   type: time_table
   contents:
     - description: Dell Technologies Proven Professionals Associate - Information Storage and Management
-      year: March-2023
+      year: Mar-2023
       
 - title: Interests
   type: list
